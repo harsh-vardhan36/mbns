@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Bharti National School | Kendui, Gaya</title>
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description"
+        content="Manav Bharti National School (MBNS), established in 1998 in Kendui, Gaya, is a premier co-educational, English medium day school affiliated with CBSE, New Delhi. Dedicated to academic excellence, discipline, and holistic growth.">
+    <meta name="keywords"
+        content="Manav Bharti National School, MBNS Gaya, CBSE School Gaya, School in Kendui, Best school in Gaya, Gaya School, English Medium School Gaya">
+    <meta name="author" content="Harsh Vardhan @harsh-vardhan3656">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="announcement-bar">
+        <div class="container container-flex">
+            <div class="announcement-text">
+                <span class="badge">Notice</span>
+                <span class="text-scroll">Admissions Open for Session 2026-27 | CBSE Affiliated (+2 Level) | School
+                    Hours: 08:00 AM TO 02:00 PM</span>
+            </div>
+            <div class="top-contact">
+                <a href="tel:+919431418411"><i class="fa-solid fa-phone"></i> +91 9431418411</a>
+                <a href="mailto:manavbhartigaya1998@gmail.com"><i class="fa-solid fa-envelope"></i>
+                    manavbhartigaya1998@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="main-header">
+        <div class="container navbar-container">
+            <div class="logo-area">
+                <img src="resources/logo/mbns%20logo.jpeg" alt="MBNS Logo" class="school-logo" id="school-logo-img">
+                <div class="logo-text">
+                    <h1>Manav Bharti National School</h1>
+                    <p class="sub-title">Affiliated to CBSE, New Delhi (+2 Level)</p>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#facilities" class="nav-link">Facilities</a></li>
+                    <li><a href="#admissions" class="nav-link">Admissions</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Action buttons -->
+            <div class="header-actions">
+                <button id="themeToggleBtn" class="theme-toggle" aria-label="Toggle Dark Mode"
+                    title="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary btn-sm btn-nav">Apply Now</a>
+                <button class="hamburger-menu" id="hamburgerMenu" aria-label="Open navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE NAVIGATION DRAWER -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-header">
+            <img src="resources/logo/mbns%20logo.jpeg" alt="MBNS Logo" class="drawer-logo">
+            <button class="close-drawer" id="closeDrawerBtn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <ul class="drawer-links">
+            <li><a href="#home" class="drawer-link">Home</a></li>
+            <li><a href="#about" class="drawer-link">About Us</a></li>
+            <li><a href="#leadership" class="drawer-link">Leadership Messages</a></li>
+            <li><a href="#gallery" class="drawer-link">Photo Gallery</a></li>
+            <li><a href="#facilities" class="drawer-link">Facilities</a></li>
+            <li><a href="#admissions" class="drawer-link">Admissions</a></li>
+            <li><a href="#contact" class="drawer-link">Contact Us</a></li>
+        </ul>
+        <div class="drawer-footer">
+            <div class="drawer-socials">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>School Hours: 08:00 AM - 02:00 PM</p>
+        </div>
+    </div>
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+
+    <!-- MAIN APP CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-slider">
+                <!-- Slide 1 (Banner / Main Showcase) -->
+                <div class="slide active"
+                    style="background-image: linear-gradient(rgba(11, 25, 44, 0.75), rgba(11, 25, 44, 0.75)), url('resources/building/Mbns%20Building%20office.jpeg');">
+                    <div class="container hero-content text-center">
+                        <span class="hero-badge fade-in">Welcome to Manav Bharti National School</span>
+                        <h3 class="hero-title fade-in-delay-1">Nurturing Academics, Character & Leadership</h3>
+                        <p class="hero-desc fade-in-delay-2">A CBSE Affiliated English Medium school in Gaya, dedicated
+                            to providing high-quality education and building a strong foundation for future success.</p>
+                        <div class="hero-ctas fade-in-delay-3">
+                            <a href="#about" class="btn btn-primary btn-lg">Explore Campus</a>
+                            <a href="#contact" class="btn btn-secondary btn-lg">Get in Touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+            </div>
+        </section>
+
+        <!-- STATS BAR -->
+        <section class="stats-bar">
+            <div class="container stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="1998">1998</h3>
+                        <p class="stat-label">Established Year</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="stat-info">
+                        <h3 class="stat-number">CBSE</h3>
+                        <p class="stat-label">Affiliation (+2 Level)</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="3500">3500+</h3>
+                        <p class="stat-label">Happy Students</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="150">150+</h3>
+                        <p class="stat-label">Expert Staff</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Legacy of Excellence</span>
+                    <h2 class="section-title">About Our School</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text-content">
+                        <p class="lead">Dedicated to providing high-quality education that nurtures the academic,
+                            social, and personal growth of every student.</p>
+                        <p>Established in 1998, Manav Bharti National School is a co-educational, English medium day
+                            school recognized by the Central Board of Secondary Education (CBSE), New Delhi. Our school
+                            offers a robust curriculum designed to empower students at the secondary level and prepare
+                            them for future success.</p>
+                        <p>Our campus, located in Kendui near Govt. ITI on Bodhgaya Road, Gaya, boasts a spacious,
+                            well-designed building with a secure high boundary wall. We are committed to creating an
+                            inspiring and supportive atmosphere where students are motivated to achieve their full
+                            potential. With a strong focus on academic excellence, discipline, and holistic growth, our
+                            school remains a pillar of quality education in the community.</p>
+
+                        <div class="key-features">
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                                <div>
+                                    <h4>Safe & Secure Campus</h4>
+                                    <p>High boundary walls with continuous monitoring to ensure maximum safety.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="fa-solid fa-laptop-code"></i></span>
+                                <div>
+                                    <h4>Smart Infrastructure</h4>
+                                    <p>Projector-equipped classrooms and advanced technology labs for modern learning.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-image-content">
+                        <div class="image-wrapper">
+                            <img src="resources/building/Mbns%20Building.jpeg" alt="MBNS School Building"
+                                class="main-about-img">
+                            <div class="badge-overlay">
+                                <span class="badge-num">28+</span>
+                                <span class="badge-txt">Years of Academic Glory</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MESSAGE FROM LEADERSHIP -->
+        <section id="leadership" class="leadership-section section-padding alternate-bg">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Our Guidance & Vision</span>
+                    <h2 class="section-title">Leadership Messages</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="leadership-cards">
+                    <!-- Director's Card -->
+                    <div class="leadership-card scroll-reveal">
+                        <div class="leadership-img-pane">
+                            <img src="resources/director/mbns%20director.jpeg" alt="Director of MBNS">
+                            <div class="leadership-designation">
+                                <h3>Director</h3>
+                                <p>Manav Bharti National School</p>
+                            </div>
+                        </div>
+                        <div class="leadership-content-pane">
+                            <span class="quote-icon"><i class="fa-solid fa-quote-left"></i></span>
+                            <h3 class="message-title">Director's Vision</h3>
+                            <div class="message-text">
+                                <p>"My vision is to see our students excel not only in academic spheres but emerge as
+                                    morally upright, socially responsible citizens of tomorrow. Quality education at
+                                    Manav Bharti National School is not just about books, but about character building,
+                                    discipline, and instilling values that last a lifetime."</p>
+                                <p>"We work tirelessly to provide an environment where curiosity is nurtured, innovation
+                                    is welcomed, and every individual student feels valued and supported in their unique
+                                    journey."</p>
+                            </div>
+                            <div class="message-author">
+                                <h4>MR. Sanjay Kumar Singh</h4>
+                                <span class="author-title">Director, MBNS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Principal's Card -->
+                    <div class="leadership-card scroll-reveal reverse">
+                        <div class="leadership-img-pane">
+                            <img src="resources/principal/Mbns%20Principal.jpeg" alt="Principal of MBNS">
+                            <div class="leadership-designation">
+                                <h3>Principal</h3>
+                                <p>Manav Bharti National School</p>
+                            </div>
+                        </div>
+                        <div class="leadership-content-pane">
+                            <span class="quote-icon"><i class="fa-solid fa-quote-left"></i></span>
+                            <h3 class="message-title">Principal's Address</h3>
+                            <div class="message-text">
+                                <p>"Dear Parents and Students, Welcome to Manav Bharti National School. Our aim is to
+                                    provide a holistic learning environment that blends academic excellence with
+                                    physical growth, emotional balance, and cultural values."</p>
+                                <p>"With our modern CBSE curriculum, supportive teaching staff, and well-designed
+                                    infrastructure, we guide our students to discover their inner potential, learn to
+                                    overcome challenges, and strive continuously for excellence."</p>
+                            </div>
+                            <div class="message-author">
+                                <h4>Dr. Nutan Singh</h4>
+                                <span class="author-title">Principal, MBNS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PHOTO GALLERY SECTION -->
+        <section id="gallery" class="gallery-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Visual Tour</span>
+                    <h2 class="section-title">Campus & Student Life Gallery</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Gallery Filters -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="campus">School Campus</button>
+                    <button class="filter-btn" data-filter="students">Student Activities</button>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Campus: Main Building -->
+                    <div class="gallery-item" data-category="campus">
+                        <div class="gallery-card">
+                            <img src="resources/building/Mbns%20Building.jpeg" alt="MBNS Main School Building"
+                                loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Main School Building</h4>
+                                <p>Spacious, modern infrastructure with double-height entries</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Campus: Night View -->
+                    <div class="gallery-item" data-category="campus">
+                        <div class="gallery-card">
+                            <img src="resources/building/mbns%20building%20night%20view.jpeg" alt="School Night View"
+                                loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Campus Night Illumination</h4>
+                                <p>Stunning architectural lighting showing campus security & aesthetics</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Campus: Office -->
+                    <div class="gallery-item" data-category="campus">
+                        <div class="gallery-card">
+                            <img src="resources/building/Mbns%20Building%20office.jpeg" alt="Administrative Office"
+                                loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Administrative Block</h4>
+                                <p>Fully furnished office and welcoming admission lobby</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Student Photo 1 (Group) -->
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-card">
+                            <img src="resources/students/3940d23de78f9191bb49e9dc5430843a.jpeg"
+                                alt="School Assembly Group Photo" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>School Group Assembly</h4>
+                                <p>Students standing proud in unity under the school banner</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Student Photo 2 -->
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-card">
+                            <img src="resources/students/2457a1eb3cb507869695023dbadfcf06.jpeg"
+                                alt="Sports Day Activities" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Co-Curricular Events</h4>
+                                <p>Nurturing physical health, teamwork, and leadership</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Student Photo 3 -->
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-card">
+                            <img src="resources/students/75dc29206169ee80657a9cea4ff7a5d9.jpeg"
+                                alt="Students in Classroom" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Active Classroom Learning</h4>
+                                <p>Interactive learning environment with direct teacher guidance</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Student Photo 4 -->
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-card">
+                            <img src="resources/students/7a62ec033213a2e54470b729fba2d804.jpeg"
+                                alt="Computer Lab Session" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Modern Computer Lab</h4>
+                                <p>Equipping students with cutting edge technology skills</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Student Photo 5 -->
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-card">
+                            <img src="resources/students/9e86b4ee899def93e430c3ef0b6d3c8e.jpeg"
+                                alt="Creative Arts Section" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Music & Creative Arts</h4>
+                                <p>Exploring creative horizons through classical and modern arts</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Student Photo 6 -->
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-card">
+                            <img src="resources/students/b2de65c0c6e0e4f652b4fe20cb76abb9.jpeg"
+                                alt="Independence Day Celebration" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Cultural & National Celebrations</h4>
+                                <p>Instilling patriotic values and appreciation for diversity</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Student Photo 7 -->
+                    <div class="gallery-item" data-category="students">
+                        <div class="gallery-card">
+                            <img src="resources/students/d3611c13581a4a56da2aa4137cbb84df.jpeg" alt="Science Exhibition"
+                                loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Science Lab Practices</h4>
+                                <p>Fostering scientific inquiry through hands-on lab experiments</p>
+                                <button class="view-btn" aria-label="View Image"><i
+                                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FACILITIES SECTION -->
+        <section id="facilities" class="facilities-section section-padding alternate-bg">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Equipped for Growth</span>
+                    <h2 class="section-title">World-Class Facilities</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="facilities-grid">
+                    <!-- Facility 1 -->
+                    <div class="facility-card scroll-reveal">
+                        <div class="facility-icon-wrap"><i class="fa-solid fa-flask-vial"></i></div>
+                        <h3>Modern Science Labs</h3>
+                        <p>Fully equipped, spacious physics, chemistry, and biology labs allowing safe, practical
+                            inquiry and experiments.</p>
+                    </div>
+
+                    <!-- Facility 2 -->
+                    <div class="facility-card scroll-reveal">
+                        <div class="facility-icon-wrap"><i class="fa-solid fa-desktop"></i></div>
+                        <h3>Advanced Computer Lab</h3>
+                        <p>High-speed internet connected systems for digital literacy, programming lessons, and
+                            project-based assignments.</p>
+                    </div>
+
+                    <!-- Facility 3 -->
+                    <div class="facility-card scroll-reveal">
+                        <div class="facility-icon-wrap"><i class="fa-solid fa-book-open"></i></div>
+                        <h3>Extensive Library</h3>
+                        <p>A quiet repository of knowledge holding thousands of reference books, educational journals,
+                            novels, and daily newspapers.</p>
+                    </div>
+
+                    <!-- Facility 4 -->
+                    <div class="facility-card scroll-reveal">
+                        <div class="facility-icon-wrap"><i class="fa-solid fa-tv"></i></div>
+                        <h3>Smart Classrooms</h3>
+                        <p>Airy classrooms integrated with digital projectors and smart boards to visual and reinforce
+                            curriculum lessons.</p>
+                    </div>
+
+                    <!-- Facility 5 -->
+                    <div class="facility-card scroll-reveal">
+                        <div class="facility-icon-wrap"><i class="fa-solid fa-guitar"></i></div>
+                        <h3>Dance & Music Rooms</h3>
+                        <p>Dedicated creative studios with instrument arrays where students develop vocal, instrumental,
+                            and physical coordination.</p>
+                    </div>
+
+                    <!-- Facility 6 -->
+                    <div class="facility-card scroll-reveal">
+                        <div class="facility-icon-wrap"><i class="fa-solid fa-basketball"></i></div>
+                        <h3>Indoor Sports & Playground</h3>
+                        <p>A secure indoor sports hall and wide outdoor playground supporting gymnastics, basketball,
+                            soccer, and group physical sports.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR STARS / ACHIEVEMENTS SECTION -->
+        <section id="stars" class="stars-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Proud Achievers</span>
+                    <h2 class="section-title">Our Shining Stars</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="stars-container">
+                    <div class="stars-grid">
+                        <div class="star-news-card">
+                            <div class="news-img-wrap">
+                                <!-- Place a placeholder/clipping here if there's one, or build a premium student display card -->
+                                <img src="resources\students\2457a1eb3cb507869695023dbadfcf06.jpeg"
+                                    alt="Academic Achievements" class="news-image">
+                                <div class="news-overlay">
+                                    <span>CBSE Board 2025/2026 Toppers</span>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <span class="news-date">Academic Success</span>
+                                <h3>Outstanding Performance in Secondary Examinations</h3>
+                                <p>We congratulate our meritorious students who secured top divisions in the Central
+                                    Board of Secondary Education examinations. Your hard work, combined with guidance
+                                    from our teachers, has brought laurels to MBNS.</p>
+                                <div class="achievement-highlights">
+                                    <div class="high-item"><strong>98%</strong> Highest Score</div>
+                                    <div class="high-item"><strong>100%</strong> Passing Rate</div>
+                                    <div class="high-item"><strong>50+</strong> Distinctions</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Top Student Performers Grid -->
+                        <div class="stars-list">
+                            <div class="star-student-item">
+                                <div class="student-avatar"><i class="fa-solid fa-award"></i></div>
+                                <div class="student-info">
+                                    <h4>Soumya Rani Gupta</h4>
+                                    <p>Class 12 Board Topper (97.8% Marks)</p>
+                                </div>
+                            </div>
+                            <div class="star-student-item">
+                                <div class="student-avatar"><i class="fa-solid fa-award"></i></div>
+                                <div class="student-info">
+                                    <h4>Priya Kumari</h4>
+                                    <p>Class 12 Board Science Topper (96.5% Marks)</p>
+                                </div>
+                            </div>
+                            <div class="star-student-item">
+                                <div class="student-avatar"><i class="fa-solid fa-award"></i></div>
+                                <div class="student-info">
+                                    <h4>Amritansh Ranjan</h4>
+                                    <p>Outstanding Sports Achiever (State Level Athletics)</p>
+                                </div>
+                            </div>
+                            <div class="star-student-item">
+                                <div class="student-avatar"><i class="fa-solid fa-award"></i></div>
+                                <div class="student-info">
+                                    <h4>Ananya Raj</h4>
+                                    <p>Inter-School Classical Dance Champion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ADMISSIONS & ANNOUNCEMENTS SECTION -->
+        <section id="admissions" class="admissions-section section-padding alternate-bg">
+            <div class="container admissions-grid-container">
+                <div class="admissions-info scroll-reveal">
+                    <span class="section-tagline">Enroll Today</span>
+                    <h2>Admission Procedure & Guidelines</h2>
+                    <div class="title-underline left"></div>
+                    <p class="intro-p">Manav Bharti National School welcomes student inquiries and requests from
+                        families seeking high standards of learning, community, and personal responsibility.</p>
+
+                    <div class="step-list">
+                        <div class="step-card">
+                            <span class="step-num">01</span>
+                            <div class="step-details">
+                                <h3>Inquiry & Prospectus</h3>
+                                <p>Visit the administrative block near Govt. I.T.I, Bodh-Gaya Road between 08:00 AM and
+                                    02:00 PM to collect registration forms.</p>
+                            </div>
+                        </div>
+                        <div class="step-card">
+                            <span class="step-num">02</span>
+                            <div class="step-details">
+                                <h3>Document Submission</h3>
+                                <p>Submit filled forms along with birth certificates, transfer certificates (TC), and
+                                    academic transcripts of the prior grade.</p>
+                            </div>
+                        </div>
+                        <div class="step-card">
+                            <span class="step-num">03</span>
+                            <div class="step-details">
+                                <h3>Assessment & Interview</h3>
+                                <p>A basic grade-level skill interaction with teachers to map academic compatibility and
+                                    developmental targets.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="admissions-hours scroll-reveal">
+                    <div class="hours-card">
+                        <span class="badge badge-accent">Operational Timing</span>
+                        <h3>School Working Hours</h3>
+                        <p class="time"><i class="fa-regular fa-clock"></i> 08:00 AM – 02:00 PM</p>
+                        <p class="days">Monday through Saturday (Excluding National & Gazetted Holidays)</p>
+                        <div class="divider"></div>
+                        <h4>Admission Office Timings</h4>
+                        <p>08:30 AM – 01:30 PM</p>
+                        <a href="#contact" class="btn btn-primary btn-block">Submit Admission Enquiry</a>
+                        <div class="alert-box mt-3">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <span>Note: Registrations for the new session are processed on a first-come, first-served
+                                basis due to limited seats per batch.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT & LEAVE A MESSAGE SECTION -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Get in Touch</span>
+                    <h2 class="section-title">Contact Us</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Details Card -->
+                    <div class="contact-details scroll-reveal">
+                        <div class="contact-details-wrap">
+                            <h3>Reach Us Directly</h3>
+                            <p>For any queries, admissions feedback, or visitor requests, feel free to visit, email, or
+                                telephone our school desk.</p>
+
+                            <div class="contact-info-list">
+                                <div class="contact-info-item">
+                                    <div class="icon-wrap"><i class="fa-solid fa-map-location-dot"></i></div>
+                                    <div class="info-content">
+                                        <h4>School Campus Address</h4>
+                                        <p>Near Govt. I.T.I, Bodh-Gaya Road, Kendui, Gaya - 823001, Bihar, India</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <div class="icon-wrap"><i class="fa-solid fa-envelope-open-text"></i></div>
+                                    <div class="info-content">
+                                        <h4>Email ID</h4>
+                                        <p><a
+                                                href="mailto:manavbhartigaya1998@gmail.com">manavbhartigaya1998@gmail.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <div class="icon-wrap"><i class="fa-solid fa-phone-volume"></i></div>
+                                    <div class="info-content">
+                                        <h4>Contact Hotlines</h4>
+                                        <p>
+                                            <a href="tel:+919431418411">+91 94314 18411</a><br>
+                                            <a href="tel:+919431416006">+91 94314 16006</a><br>
+                                            <a href="tel:+919934479701">+91 99344 79701</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-socials">
+                                <h4>Follow Us Online</h4>
+                                <div class="social-icons">
+                                    <a href="https://www.facebook.com/p/Manav-Bharti-National-School-Official-100063699711854/"
+                                        aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.youtube.com/@manavbhartischool" aria-label="Youtube"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                    <a href="https://www.instagram.com/manavbharti1998/" aria-label="Instagram"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Card -->
+                    <div class="contact-form-card scroll-reveal">
+                        <div class="contact-form-wrap">
+                            <h3>Leave a Message</h3>
+                            <p>Send your enquiry below, and our team will get back to you within 24 operational hours.
+                            </p>
+
+                            <form id="contactForm" novalidate>
+                                <div class="form-group">
+                                    <label for="name">Full Name <span class="required">*</span></label>
+                                    <div class="input-wrap">
+                                        <i class="fa-solid fa-user input-icon"></i>
+                                        <input type="text" id="name" placeholder="Enter your full name" required>
+                                    </div>
+                                    <span class="error-msg" id="nameError">Please enter your name.</span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address <span class="required">*</span></label>
+                                    <div class="input-wrap">
+                                        <i class="fa-solid fa-envelope input-icon"></i>
+                                        <input type="email" id="email" placeholder="example@gmail.com" required>
+                                    </div>
+                                    <span class="error-msg" id="emailError">Please enter a valid email address.</span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone">Phone Number <span class="required">*</span></label>
+                                    <div class="input-wrap">
+                                        <i class="fa-solid fa-phone input-icon"></i>
+                                        <input type="tel" id="phone" placeholder="10-digit mobile number" required>
+                                    </div>
+                                    <span class="error-msg" id="phoneError">Please enter a valid 10-digit phone
+                                        number.</span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message / Enquiry <span class="required">*</span></label>
+                                    <div class="input-wrap textarea-wrap">
+                                        <i class="fa-solid fa-pen-nib input-icon"></i>
+                                        <textarea id="message" rows="4" placeholder="Write details of your query..."
+                                            required></textarea>
+                                    </div>
+                                    <span class="error-msg" id="messageError">Please enter your query details.</span>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-block btn-submit" id="submitBtn">
+                                    <span class="btn-text">Submit Message</span>
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Map Embed Placeholder -->
+                <div class="map-container scroll-reveal">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Manav%20Bharti%20National%20School,%20Kendui,%20Gaya,%20Bihar&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="Manav Bharti National School Map Location">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- INTERACTIVE LIGHTBOX FOR GALLERY -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox"><i
+                class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous Image"><i
+                class="fa-solid fa-chevron-left"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImg">
+            <div class="lightbox-caption">
+                <h4 id="lightboxTitle"></h4>
+                <p id="lightboxDesc"></p>
+            </div>
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next Image"><i
+                class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- TOAST NOTIFICATION FOR FORM SUBMIT -->
+    <div class="toast" id="toast">
+        <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
+        <div class="toast-content">
+            <h4>Thank You!</h4>
+            <p>Your message has been successfully sent. We will contact you soon.</p>
+        </div>
+        <button class="toast-close" id="toastClose"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo-row">
+                    <img src="resources/logo/mbns%20logo.jpeg" alt="MBNS Logo" class="footer-logo">
+                    <h3>MBNS Gaya</h3>
+                </div>
+                <p class="footer-tag">Nurturing academic, social, and personal growth since 1998 under a robust CBSE
+                    learning framework.</p>
+                <div class="footer-contact-simple">
+                    <p><i class="fa-solid fa-location-dot"></i> Near Govt. I.T.I, Bodh-Gaya Road, Kendui, Gaya</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9431418411, 9431416006</p>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#leadership">Leadership Messages</a></li>
+                    <li><a href="#gallery">Campus Gallery</a></li>
+                    <li><a href="#facilities">School Facilities</a></li>
+                    <li><a href="#admissions">Admissions Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-hours">
+                <h4>School Timings</h4>
+                <p class="timing-highlight"><i class="fa-regular fa-clock"></i> 08:00 AM TO 02:00 PM</p>
+                <p class="timing-sub">Admissions office is open from Monday to Saturday, 08:30 AM to 01:30 PM. Parents
+                    and guardians are requested to secure appointments prior to visits.</p>
+            </div>
+        </div>
+
+        <div class="sub-footer">
+            <div class="container container-flex">
+                <p>&copy; 2026 Manav Bharti National School. All Rights Reserved. | <a href="#" id="staffPortalLink"
+                        class="staff-portal-btn"><i class="fa-solid fa-lock"></i> Staff Portal</a></p>
+                <p class="dev-credits">
+                    Developed by: <strong>Harsh Vardhan</strong> follow : <a
+                        href="https://www.linkedin.com/in/harshvardhan3656" target="_blank"
+                        rel="noopener noreferrer">@harsh-vardhan3656</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STAFF PORTAL MODAL (ADMIN MESSAGES) -->
+    <div class="admin-modal" id="adminModal">
+        <div class="admin-modal-content">
+            <button class="admin-modal-close" id="adminModalClose" aria-label="Close Staff Portal"><i
+                    class="fa-solid fa-xmark"></i></button>
+
+            <!-- Login State -->
+            <div id="adminLoginState" class="admin-state">
+                <div class="admin-header-logo">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Staff Portal</h2>
+                    <p>Enter passcode to access parent & student message enquiries.</p>
+                </div>
+                <form id="adminLoginForm" autocomplete="off">
+                    <div class="form-group">
+                        <label for="passcode">Security Passcode</label>
+                        <div class="input-wrap">
+                            <i class="fa-solid fa-key input-icon"></i>
+                            <input type="password" id="passcode" placeholder="Enter security passcode (****)" required>
+                        </div>
+                        <span class="error-msg" id="passcodeError">Incorrect passcode. Please try again.</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Verify & Enter</button>
+                </form>
+            </div>
+
+            <!-- Dashboard State -->
+            <div id="adminDashboardState" class="admin-state hidden">
+                <div class="admin-dashboard-header">
+                    <h2><i class="fa-solid fa-inbox"></i> Enquiries Inbox</h2>
+                    <div class="dashboard-actions">
+                        <button id="clearAllMessagesBtn" class="btn btn-secondary btn-sm"><i
+                                class="fa-solid fa-trash-can"></i> Clear All</button>
+                        <button id="adminLogoutBtn" class="btn btn-primary btn-sm"><i
+                                class="fa-solid fa-right-from-bracket"></i> Logout</button>
+                    </div>
+                </div>
+
+                <div class="messages-table-wrap">
+                    <div id="noMessagesText" class="no-messages-text">
+                        <i class="fa-regular fa-envelope-open"></i>
+                        <p>No enquiry messages received yet.</p>
+                    </div>
+                    <table class="messages-table hidden" id="messagesTable">
+                        <thead>
+                            <tr>
+                                <th>Date/Time</th>
+                                <th>Sender Name</th>
+                                <th>Contact details</th>
+                                <th>Enquiry Details</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="messagesTableBody">
+                            <!-- Injected dynamically via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Scroll back to top" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
